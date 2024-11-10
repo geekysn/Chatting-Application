@@ -40,8 +40,8 @@ A robust, full-stack web chat application built with the MERN stack (MongoDB, Ex
 
 1. **Clone** the repository and install dependencies:
     ```bash
-    git clone https://github.com/your-username/real-time-chat-app.git
-    cd real-time-chat-app
+    git clone https://github.com/geekysn/Chatting-Application.git
+    cd Chatting-Application
     npm install
     ```
 
