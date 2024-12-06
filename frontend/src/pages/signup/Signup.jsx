@@ -73,7 +73,7 @@ const Signup = () => {
                   </label>
                   <input value={inputs.mobNo} onChange={(e)=>{
                     setInputs({...inputs, mobNo  : e.target.value})
-                  }} type="text" placeholder='Enter username' className='w-full input input-bordered h-10'/>
+                  }} type="text" placeholder='Enter your phone number' className='w-full input input-bordered h-10'/>
                 </div>
                 <GenderCheckbox onRadioChange={handleGenderInput} genderSelected={inputs.gender}/>
                 <Link to="/signin" className='text-sm text-slate-500 hover:underline hover:text-blue-600 mt-1 inline-block'>{"Already"} have an account?</Link>
